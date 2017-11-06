@@ -1,0 +1,21 @@
+{
+    "name": "itvnsoft/hello-world",
+    "description": "This is the demo composer git package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luongit",
+            "email": "luongitvnsoft@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "Itvnsoft\\Uploads\\": "src/"
+        }
+    }
+}
